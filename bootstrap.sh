@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ORG=18F
+ORG=jadudm
 REPOS=laptoptwo
 ORG_REPOS=${ORG}/${REPOS}
 
