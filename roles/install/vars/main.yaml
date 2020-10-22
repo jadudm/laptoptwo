@@ -33,3 +33,4 @@ casks:
   - github
   - keepassxc
   - slack
+  - db-browser-for-sqlite

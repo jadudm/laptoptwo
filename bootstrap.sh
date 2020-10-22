@@ -146,7 +146,13 @@ install_homebrew () {
         export PATH="/usr/local/bin:$PATH"
     else
         _status "Update Homebrew."
+        brew untap buildpack/tap
+        brew untap buildpacks/tap
+        brew tap buildpacks/tap
+        brew upgrade pack
+
         brew update
+        brew upgrade
     fi
 }
 
